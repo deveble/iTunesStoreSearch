@@ -3,27 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CE06840824000CC000C4E560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06840724000CC000C4E560 /* AppDelegate.swift */; };
 		CE06840A24000CC000C4E560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06840924000CC000C4E560 /* SceneDelegate.swift */; };
-		CE06840C24000CC000C4E560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06840B24000CC000C4E560 /* ViewController.swift */; };
 		CE06840F24000CC000C4E560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE06840D24000CC000C4E560 /* Main.storyboard */; };
 		CE06841124000CC400C4E560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE06841024000CC400C4E560 /* Assets.xcassets */; };
 		CE06841424000CC400C4E560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE06841224000CC400C4E560 /* LaunchScreen.storyboard */; };
+		CE0684202400193200C4E560 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06841F2400193200C4E560 /* SearchResult.swift */; };
+		CE06842224001A9D00C4E560 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06842124001A9D00C4E560 /* Search.swift */; };
+		CE06842424001AD500C4E560 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06842324001AD500C4E560 /* SearchTableViewController.swift */; };
+		CE0684262400214F00C4E560 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0684252400214F00C4E560 /* SearchResultCell.swift */; };
+		CE068428240023EB00C4E560 /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE068427240023EB00C4E560 /* UIImageView+DownloadImage.swift */; };
+		CE06842A24002DBD00C4E560 /* EmptyResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06842924002DBD00C4E560 /* EmptyResultCell.swift */; };
+		CE06842C24002E9C00C4E560 /* LoadingResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06842B24002E9C00C4E560 /* LoadingResultCell.swift */; };
+		CE06842E24005AFE00C4E560 /* SearchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06842D24005AFE00C4E560 /* SearchDetailViewController.swift */; };
+		CE06843124007E5B00C4E560 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = CE06843024007E5B00C4E560 /* PanModal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE06840424000CC000C4E560 /* ItunesStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItunesStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE06840724000CC000C4E560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE06840924000CC000C4E560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE06840B24000CC000C4E560 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE06840E24000CC000C4E560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE06841024000CC400C4E560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE06841324000CC400C4E560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE06841524000CC400C4E560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE06841F2400193200C4E560 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		CE06842124001A9D00C4E560 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		CE06842324001AD500C4E560 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		CE0684252400214F00C4E560 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		CE068427240023EB00C4E560 /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
+		CE06842924002DBD00C4E560 /* EmptyResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResultCell.swift; sourceTree = "<group>"; };
+		CE06842B24002E9C00C4E560 /* LoadingResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingResultCell.swift; sourceTree = "<group>"; };
+		CE06842D24005AFE00C4E560 /* SearchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE06843124007E5B00C4E560 /* PanModal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +74,14 @@
 			children = (
 				CE06840724000CC000C4E560 /* AppDelegate.swift */,
 				CE06840924000CC000C4E560 /* SceneDelegate.swift */,
-				CE06840B24000CC000C4E560 /* ViewController.swift */,
+				CE06842D24005AFE00C4E560 /* SearchDetailViewController.swift */,
+				CE06842324001AD500C4E560 /* SearchTableViewController.swift */,
+				CE06842124001A9D00C4E560 /* Search.swift */,
+				CE06841F2400193200C4E560 /* SearchResult.swift */,
+				CE0684252400214F00C4E560 /* SearchResultCell.swift */,
+				CE06842924002DBD00C4E560 /* EmptyResultCell.swift */,
+				CE06842B24002E9C00C4E560 /* LoadingResultCell.swift */,
+				CE068427240023EB00C4E560 /* UIImageView+DownloadImage.swift */,
 				CE06840D24000CC000C4E560 /* Main.storyboard */,
 				CE06841024000CC400C4E560 /* Assets.xcassets */,
 				CE06841224000CC400C4E560 /* LaunchScreen.storyboard */,
@@ -83,6 +106,9 @@
 			dependencies = (
 			);
 			name = ItunesStore;
+			packageProductDependencies = (
+				CE06843024007E5B00C4E560 /* PanModal */,
+			);
 			productName = ItunesStore;
 			productReference = CE06840424000CC000C4E560 /* ItunesStore.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,9 @@
 				Base,
 			);
 			mainGroup = CE0683FB24000CC000C4E560;
+			packageReferences = (
+				CE06842F24007E5B00C4E560 /* XCRemoteSwiftPackageReference "PanModal" */,
+			);
 			productRefGroup = CE06840524000CC000C4E560 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE06840C24000CC000C4E560 /* ViewController.swift in Sources */,
+				CE068428240023EB00C4E560 /* UIImageView+DownloadImage.swift in Sources */,
+				CE06842C24002E9C00C4E560 /* LoadingResultCell.swift in Sources */,
+				CE06842424001AD500C4E560 /* SearchTableViewController.swift in Sources */,
 				CE06840824000CC000C4E560 /* AppDelegate.swift in Sources */,
+				CE06842224001A9D00C4E560 /* Search.swift in Sources */,
+				CE0684202400193200C4E560 /* SearchResult.swift in Sources */,
+				CE06842E24005AFE00C4E560 /* SearchDetailViewController.swift in Sources */,
+				CE0684262400214F00C4E560 /* SearchResultCell.swift in Sources */,
+				CE06842A24002DBD00C4E560 /* EmptyResultCell.swift in Sources */,
 				CE06840A24000CC000C4E560 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +372,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE06842F24007E5B00C4E560 /* XCRemoteSwiftPackageReference "PanModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/slackhq/PanModal";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE06843024007E5B00C4E560 /* PanModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE06842F24007E5B00C4E560 /* XCRemoteSwiftPackageReference "PanModal" */;
+			productName = PanModal;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE0683FC24000CC000C4E560 /* Project object */;
 }
